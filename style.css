@@ -1,0 +1,358 @@
+body {
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 0;
+
+    min-height: 100%;
+
+}
+
+body > .container {
+    min-height: calc(100vh - 300px);
+}
+
+.footer {
+    margin-top: -55px;
+    background-color: darkgoldenrod;
+    height: 55px;
+    margin-top: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-align: right;
+    width: 80%;
+    margin: auto;
+
+}
+
+.footer h4 {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+
+h3 {
+    color: black;
+    font-size: 18pt;
+    font-weight: 400;
+    background-color: papayawhip;
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.kr_op {
+    color: #707070;
+    font-size: 14pt;
+    font-style: italic;
+    line-height: 16px;
+    float: left;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+
+.pod_op {
+    clear: both;
+    color: #484343;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 5%;
+}
+
+.tab,
+.tab_cat,
+td {
+    border: 1px double darkgoldenrod;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border-spacing: 1px;
+    vertical-align: middle;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tab {
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+.tab_cat td {
+    text-align: center;
+}
+
+.tab_cat {
+    width: 700px;
+    border-collapse: collapse;
+    height: 40px;
+}
+
+.tab_cat a {
+    text-decoration: none;
+    border-collapse: collapse;
+    color: black;
+}
+
+.tab_cat .td_fas:hover,
+.tab_cat .td_ris:hover,
+.tab_cat .td_gre4:hover {
+
+    background-color: #fff;
+
+}
+
+
+th {
+    border: 1px solid darkgoldenrod;
+    background-color: sandybrown;
+    text-align: center;
+}
+
+.gotov li {
+    list-style-image: url(img/eda.png);
+    font-style: italic;
+    font-size: 16 pt;
+
+}
+
+.gotov {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.img {
+    outline: 3px solid darkgoldenrod;
+    box-shadow: 0 0 7px #666;
+
+    float: left;
+    margin: 10px;
+    width: 150px;
+}
+
+.img:hover {
+    outline-color: transparent;
+}
+
+
+
+.block_table {
+    display: block;
+    border-collapse: collapse;
+    width: 700px;
+    margin: auto;
+}
+
+.block_table td {
+    text-align: center;
+    padding: 1px 1px;
+}
+
+.contact {
+    width: 300px;
+    height: 24px;
+    background-color: wheat;
+    text-transform: capitalize;
+    margin: auto;
+}
+
+
+
+.email {
+
+    width: 300px;
+    height: 24px;
+    background-color: transparent;
+    text-transform: capitalize;
+
+}
+
+.email:focus {
+    background-color: transparent;
+    color: darkgoldenrod;
+}
+
+.pod_op p:first-letter,
+.kr_op1 p:first-letter {
+    font-family: monospace;
+    font-size: 200%;
+    color: darkgoldenrod;
+}
+
+.p_logo {
+    border: 1px solid transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(204, 204, 204, 0.5);
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 250%;
+
+}
+
+.navbar-text {}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    clear: both;
+    font-family: monospace;
+}
+
+.h1_logo {
+    height: 140px;
+    background-image: url(img/header_fon.jpg);
+    background-repeat: no-repeat;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: auto;
+
+}
+
+
+hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    clear: both;
+}
+
+.form_container {
+    width: 500;
+    margin: 0 auto;
+}
+
+.form {
+    margin-left: 50px;
+    background-color: papayawhip;
+    padding: 10px;
+    width: 320px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+}
+
+.adress {
+    margin-left: 50px;
+}
+
+
+.karta {
+    width: 100%;
+    height: 374px;
+}
+
+.Kupit:hover {
+    background-color: darkgoldenrod;
+}
+
+.Kupit:active {
+    background-color: transparent;
+}
+
+.Kupit {
+    background-color: burlywood;
+}
+
+.koli4 {
+
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 40px;
+    text-align: center;
+
+}
+
+.kr_op1 {
+    float: left;
+    width: 200px;
+}
+
+
+}
+
+.nav-link:hover {
+    border-color: 1px solid transparent;
+    background-color: #ccc;
+
+}
+
+.navbar-text {
+    background-color: rgba(204, 204, 204, .3);
+    border: 1p solid darkgoldenrod;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.navbar .navbar-brand {
+    background-color: rgba(204, 204, 204, .3);
+    border: 1p solid darkgoldenrod;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.navbar {
+    background-color: rgba(255, 239, 213, 1);
+
+    border: 1px solid darkgoldenrod;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.img-thumbnail {
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu {
+    background-color: cornsilk;
+}
+
+.header {
+    margin: auto;
+}
+
+.karusel {
+    height: 500px;
+}
+
+.button {
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: chocolate;
+
+}
+
+.button:active {
+    background-color: gold;
+    border-color: transparent;
+}
